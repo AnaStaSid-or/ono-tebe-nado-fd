@@ -141,9 +141,8 @@ blockquote {
   z-index: 0;
 }
 
-.cover_title {
+.cover__title {
   z-index: 2;
-  letter-spacing: 0.3em;
 }
 
 .aligned-text {
@@ -165,8 +164,6 @@ blockquote {
   text-align: right;
   letter-spacing: 23px;
 }
-
-.cover_title-text {}
 
 .description {
   display: flex;
