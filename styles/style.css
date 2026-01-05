@@ -14,12 +14,12 @@ a {
 
 .black_text {
   color: black;
-  font-style: regular;
+  font-style: normal;
 }
 
 .wight_text {
   color: #fff;
-  font-style: regular;
+  font-style: normal;
 }
 
 .header {
@@ -59,7 +59,7 @@ a {
   font-size: 18px;
   font-weight: 400;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
@@ -84,12 +84,11 @@ a {
 .address {
   display: flex;
   flex-direction: column;
-  width: 1fr;
   max-width: 240px;
   justify-self: end;
   font-style: normal;
   margin-bottom: 6px;
-  font-family: "Raleway"sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
@@ -135,7 +134,6 @@ a {
 
 .aligned-text {
   display: block;
-  font-style: bold;
   font-size: 100px;
   font-weight: 700;
   text-transform: uppercase;
@@ -163,7 +161,7 @@ a {
 }
 
 .description_text {
-  font-style: regular;
+  font-style: normal;
   font-size: 22px;
   font-weight: 400;
   text-transform: uppercase;
@@ -182,7 +180,6 @@ a {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-style: Medium;
   font-size: 22px;
   text-align: center;
 }
@@ -195,7 +192,6 @@ a {
 .lots_heading {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-style: Bold;
   font-size: 40px;
   text-transform: uppercase;
   margin: 0 0 26px 40px;
@@ -221,7 +217,6 @@ article {
 .card__title {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-style: Bold;
   font-size: 22px;
   line-height: 120%;
   text-transform: uppercase;
@@ -238,7 +233,7 @@ article {
 .card__text {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-style: Regular;
+  font-style: normal;
   font-size: 20px;
   line-height: 120%;
   text-decoration: none;
@@ -270,7 +265,7 @@ article {
 .lots_look-more-link {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-style: Regular;
+  font-style: normal;
   font-size: 20px;
   margin-left: 40px;
   text-decoration: underline;
@@ -325,7 +320,7 @@ article {
 .about_text {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-style: Regular;
+  font-style: normal;
   font-size: 20px;
   line-height: 24px;
 }
@@ -334,7 +329,6 @@ article {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(3, 1fr);
-  gap: auto;
   align-items: center;
   padding: 0 50px 82px 50px;
 }
@@ -357,7 +351,7 @@ article {
   font-size: 18px;
   font-weight: 400;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 5px;
